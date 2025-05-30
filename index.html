@@ -9,13 +9,16 @@
 
     body {
       font-family: 'Luckiest Guy', cursive;
-      background-color: #fdf6e3;
+      background: radial-gradient(ellipse at bottom, #05007A 0%, #000 100%);
       margin: 0;
       padding: 0;
-      color: #2c3e50;
+      color: #ffffff;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     header {
-      background: linear-gradient(to right, #f39c12, #e74c3c);
+      background: linear-gradient(to right, #2e3192, #1bffff);
       color: white;
       padding: 2em 1em;
       text-align: center;
@@ -29,7 +32,7 @@
       font-size: 1.3em;
     }
     .intro {
-      background-color: #ffe9c4;
+      background-color: rgba(0, 0, 0, 0.5);
       padding: 2em;
       font-size: 1.2em;
       text-align: center;
@@ -37,7 +40,7 @@
     }
     .button {
       display: inline-block;
-      background-color: #e67e22;
+      background-color: #00bfff;
       color: white;
       padding: 15px 30px;
       border: none;
@@ -45,18 +48,18 @@
       text-decoration: none;
       font-size: 1.4em;
       margin-top: 20px;
-      box-shadow: 0 4px 0 #c0392b;
+      box-shadow: 0 4px 0 #007acc;
       transition: transform 0.2s;
     }
     .button:hover {
       transform: scale(1.05);
-      background-color: #d35400;
+      background-color: #007acc;
     }
     .gallery {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      background-color: #fff;
+      background-color: rgba(0, 0, 0, 0.3);
       padding: 2em 0;
     }
     .gallery img {
@@ -64,24 +67,7 @@
       height: auto;
       margin: 10px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    .videos {
-      background-color: #f0f0f0;
-      padding: 2em;
-      text-align: center;
-    }
-    .videos h2 {
-      font-size: 2em;
-      margin-bottom: 1em;
-    }
-    .videos iframe {
-      width: 360px;
-      height: 203px;
-      margin: 10px;
-      border: none;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 8px rgba(255,255,255,0.3);
     }
   </style>
 </head>
@@ -93,18 +79,12 @@
   </header>
 
   <section class="intro">
-    <p>Этот сайт будет служить как навигатор для вас. В интернете очень просто заблудиться и потеряться среди фейков и трафика, а тут вы в пару кликов можете попасть на все мои официальные соцсети, приобрести мою продукцию и следить за новостями и обновлениями!</p>
+    <p>Этот сайт будет служить как навигатор для вас. В интернете очень просто заблудиться и потеряться среди фейков и трафика, а тут вы в пару кликов можете попасть на все мои официальные соцсети и следить за новостями и обновлениями!</p>
   </section>
 
   <section class="gallery">
-    <img src="/mnt/data/hq720.jpg" alt="Hello Neighbor Screenshot">
-    <img src="/mnt/data/Hello-Neighbor-2s-Mr.-Peterson-Will-Learn-From-Every-Player.avif" alt="Hello Neighbor Art">
-  </section>
-
-  <section class="videos">
-    <h2>🎥 Последние видео</h2>
-    <iframe src="https://www.youtube.com/embed/aT-GbQCYG8U" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/14kylD7HwCY" allowfullscreen></iframe>
+    <img src="https://i.ytimg.com/vi/kGGNIrYv5r4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAK5tQgia99Ev7xSnkk_2QoDegNgA" alt="Hello Neighbor Screenshot">
+    <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/06/Hello-Neighbor-2s-Mr.-Peterson-Will-Learn-From-Every-Player.jpg" alt="Hello Neighbor Art">
   </section>
 </body>
 </html>
